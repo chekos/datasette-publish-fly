@@ -29,6 +29,7 @@ app = "{app}"
   [[services.ports]]
     handlers = ["http"]
     port = 80
+    force_https = true
 
   [[services.ports]]
     handlers = ["tls", "http"]
